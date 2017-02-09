@@ -1,0 +1,9 @@
+Package: pw.ssnull.bettermedusa
+Name: BetterMedusa
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, applist
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Enable Medusa on unsupported device
+Maintainer: Brian Choi <brian9206@hotmail.com>
+Author: Brian Choi <brian9206@hotmail.com>
+Section: Tweaks
