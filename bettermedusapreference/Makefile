@@ -5,7 +5,7 @@ BetterMedusaPreference_FILES = BetterMedusaRootListController.m
 BetterMedusaPreference_INSTALL_PATH = /Library/PreferenceBundles
 BetterMedusaPreference_FRAMEWORKS = UIKit
 BetterMedusaPreference_PRIVATE_FRAMEWORKS = Preferences
-BetterMedusaPreference_LIBRARIES = AppList
+BetterMedusaPreference_LIBRARIES = applist
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 

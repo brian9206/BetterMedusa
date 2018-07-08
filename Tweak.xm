@@ -60,11 +60,6 @@
 %hook SBApplication
 
 - (bool)isMedusaCapable {	
-	// check if SpringBoard
-	if ([self isSpringBoard]) {
-		return TRUE;
-	}
-	
 	// check if blacklisted
 	if ([BetterMedusaPreference isBlacklisted: [self bundleIdentifier]]) {
 		return FALSE;
