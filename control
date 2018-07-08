@@ -1,6 +1,6 @@
 Package: pw.ssnull.bettermedusa
 Name: BetterMedusa
-Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, applist
+Depends: firmware (>= 9.0), firmware (<< 11.0), mobilesubstrate, preferenceloader, applist
 Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Enable Medusa on unsupported device
